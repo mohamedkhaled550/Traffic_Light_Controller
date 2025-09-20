@@ -25,6 +25,7 @@ Street B receives a green light after a car is detected and Street A's yellow li
 
 
 timer_parameter.v
+
 This is a generic timer module that counts clock cycles up to a specific Final_value. When the counter reaches this value, it asserts a 
 done signal and resets. The timer can be reset externally and enabled by a dedicated input (en). By instantiating this module with different parameter values, we can create the 10, 50, and 60-second timers needed for the traffic light controller.
 
